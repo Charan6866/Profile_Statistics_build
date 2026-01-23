@@ -3,8 +3,8 @@ pipeline {
 
   // adjust tool names to match your Jenkins tool configuration
   tools {
-    maven 'Maven 3'    // change to your Maven installation name
-    jdk 'JDK21'        // change to your JDK tool name
+    maven 'maven 3.9'    // change to your Maven installation name
+    jdk 'jdk21'        // change to your JDK tool name
   }
 
   options {
