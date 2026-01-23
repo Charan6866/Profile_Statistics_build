@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+
+        <listener class-name="listeners.ExtentManager"/>
+
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+
+        <!-- For Emailable Report (optional, usually default) -->
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/2457915/IdeaProjects/DevProfileAutomationFramework/src/test/java/testScripts/ProfileStatisticsPageTest.java">
+        <classes>
+            <class name="testCases.ProfileStatisticsUITest"/>
+            <class name="testCases.ProfileStatisticsFunctionality"/>
+            <class name="testCases.PortifoliopageUiTest"/>
+            <class name="testCases.PortfolioFunctionality"/>
+        </classes>
+    </test>
+</suite>

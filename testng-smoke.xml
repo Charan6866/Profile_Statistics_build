@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Smoke suite: includes tests annotated with group "smoke". Use Maven profile -Psmoke to run. -->
+<suite name="DevProfile-Smoke" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="listeners.ExtentManager"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"/>
+
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+
+    <test name="SmokeTests">
+        <classes>
+            <!-- Add or adjust classes below that contain smoke tests -->
+            <class name="testCases.ProfileStatisticsUITest"/>
+            <class name="testCases.PortifoliopageUiTest"/>
+        </classes>
+    </test>
+
+</suite>

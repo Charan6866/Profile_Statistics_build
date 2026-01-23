@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Regression suite: includes tests annotated with group "regression". Use Maven profile -Pregression to run. -->
+<suite name="DevProfile-Regression" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="listeners.ExtentManager"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"/>
+
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+
+    <test name="RegressionTests">
+        <classes>
+            <!-- Add or adjust classes below that contain regression tests -->
+            <class name="testCases.ProfileStatisticsFunctionality"/>
+            <class name="testCases.PortfolioFunctionality"/>
+
+        </classes>
+    </test>
+
+</suite>
