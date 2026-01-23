@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="listeners.ExtentManager"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <!-- For Emailable Report (optional, usually default) -->
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+
+    <!-- ===== Chrome run ===== -->
+    <test verbose="2" preserve-order="true" name="UI and Functional Tests - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.ProfileStatisticsUITest"/>
+            <class name="testCases.ProfileStatisticsFunctionality"/>
+            <class name="testCases.PortifoliopageUiTest"/>
+            <class name="testCases.PortfolioFunctionality"/>
+        </classes>
+    </test>
+
+    <!-- ===== Edge run ===== -->
+    <test verbose="2" preserve-order="true" name="UI and Functional Tests - Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testCases.ProfileStatisticsUITest"/>
+            <class name="testCases.ProfileStatisticsFunctionality"/>
+            <class name="testCases.PortifoliopageUiTest"/>
+            <class name="testCases.PortfolioFunctionality"/>
+        </classes>
+    </test>
+
+</suite>

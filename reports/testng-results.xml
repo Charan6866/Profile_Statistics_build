@@ -1,0 +1,2271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="30" failed="10" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-23T21:45:39 IST" name="All Test Suite" finished-at="2026-01-23T21:53:00 IST" duration-ms="441252">
+    <groups>
+      <group name="regression">
+        <method signature="PortfolioFunctionality.portFunctionality()[pri:0, instance:testCases.PortfolioFunctionality@47428937]" name="portFunctionality" class="testCases.PortfolioFunctionality"/>
+        <method signature="ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" name="testMeasurePortfolioButtonTitle" class="testCases.ProfileStatisticsFunctionality"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="PortifoliopageUiTest.testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" name="testCreatePortfolioButtonTitle" class="testCases.PortifoliopageUiTest"/>
+        <method signature="ProfileStatisticsUITest.ProfileStatistics_TC001()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" name="ProfileStatistics_TC001" class="testCases.ProfileStatisticsUITest"/>
+        <method signature="ProfileStatisticsUITest.ProfileStatistics_TC002()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" name="ProfileStatistics_TC002" class="testCases.ProfileStatisticsUITest"/>
+        <method signature="ProfileStatisticsUITest.ProfileStatistics_TC003()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" name="ProfileStatistics_TC003" class="testCases.ProfileStatisticsUITest"/>
+        <method signature="ProfileStatisticsUITest.ProfileStatistics_TC004()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" name="ProfileStatistics_TC004" class="testCases.ProfileStatisticsUITest"/>
+        <method signature="ProfileStatisticsUITest.ProfileStatistics_TC005()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" name="ProfileStatistics_TC005" class="testCases.ProfileStatisticsUITest"/>
+        <method signature="ProfileStatisticsUITest.ProfileStatistics_TC006()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" name="ProfileStatistics_TC006" class="testCases.ProfileStatisticsUITest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-01-23T21:45:39 IST" name="C:/Users/2457915/IdeaProjects/DevProfileAutomationFramework/src/test/java/testScripts/ProfileStatisticsPageTest.java" finished-at="2026-01-23T21:53:00 IST" duration-ms="441252">
+      <class name="testCases.ProfileStatisticsFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:46:23 IST" name="setup" finished-at="2026-01-23T21:46:25 IST" duration-ms="1734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:46:28 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:46:32 IST" duration-ms="3770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shankar@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Junior Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Java,Python]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Beginner developer with 1 years of experience.
+You've completed 3 projects (2 websites and 1 apps).
+You have good productivity with 3.0 projects per year.
+You have a balanced portfolio across web and app development.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:46:32 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:46:35 IST" duration-ms="3517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Intermediate developer with 2 years of experience.
+You've completed 2 projects (0 websites and 2 apps).
+You focus on quality over quantity with 1.0 projects per year.
+You specialize in app development. Consider exploring more web projects.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:46:35 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:46:43 IST" duration-ms="7331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Web Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Cloud Technologies]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Intermediate developer with 3 years of experience.
+You've completed 2 projects (2 websites and 0 apps).
+You focus on quality over quantity with 0.7 projects per year.
+You specialize in web development. Consider expanding your app development skills.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:46:43 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:46:46 IST" duration-ms="3459" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emptyname@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please fill out this field.(Full Name)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Profile Highlights doesn't match expected [Please fill out this field.(Full Name)] but found [You are a Intermediate developer with 3 years of experience.
+You've completed 2 projects (1 websites and 1 apps).
+You focus on quality over quantity with 0.7 projects per year.
+You have a balanced portfolio across web and app development.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Profile Highlights doesn't match expected [Please fill out this field.(Full Name)] but found [You are a Intermediate developer with 3 years of experience.
+You've completed 2 projects (1 websites and 1 apps).
+You focus on quality over quantity with 0.7 projects per year.
+You have a balanced portfolio across web and app development.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ProfileStatisticsFunctionality.Datacheck(ProfileStatisticsFunctionality.java:64)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:46:46 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:46:49 IST" duration-ms="2779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chetan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chetan@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Programmer Analyst Trainee]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ACS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Beginner developer with 1 years of experience.
+You've completed 3 projects (2 websites and 1 apps).
+You have good productivity with 3.0 projects per year.
+You have a balanced portfolio across web and app development.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:46:49 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:46:53 IST" duration-ms="3458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JOHN DOE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JOHN.DOE@OUTLOOK.COM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Senior Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Dotnet,Java]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Intermediate developer with 4 years of experience.
+You've completed 13 projects (8 websites and 5 apps).
+You have good productivity with 3.3 projects per year.
+You have a balanced portfolio across web and app development.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:46:53 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:47:04 IST" duration-ms="11415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester@example.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Testing,Automation]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Advanced developer with 5 years of experience.
+You've completed 1 projects (1 websites and 0 apps).
+You focus on quality over quantity with 0.2 projects per year.
+You specialize in web development. Consider expanding your app development skills.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:47:04 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:47:28 IST" duration-ms="23937" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Frontend]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[front@end.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UI Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[<script>alert('xss')</script>]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Key Skills must be comma seperated]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Profile Highlights doesn't match expected [Key Skills must be comma seperated] but found [You are a Advanced developer with 7 years of experience.
+You've completed 3 projects (2 websites and 1 apps).
+You focus on quality over quantity with 0.4 projects per year.
+You have a balanced portfolio across web and app development.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Profile Highlights doesn't match expected [Key Skills must be comma seperated] but found [You are a Advanced developer with 7 years of experience.
+You've completed 3 projects (2 websites and 1 apps).
+You focus on quality over quantity with 0.4 projects per year.
+You have a balanced portfolio across web and app development.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ProfileStatisticsFunctionality.Datacheck(ProfileStatisticsFunctionality.java:64)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:47:28 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:47:31 IST" duration-ms="3115" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev@hi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emoji@domain.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Python]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Name Should have Characters]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Profile Highlights doesn't match expected [Name Should have Characters] but found [You are a Intermediate developer with 3 years of experience.
+You've completed 2 projects (1 websites and 1 apps).
+You focus on quality over quantity with 0.7 projects per year.
+You have a balanced portfolio across web and app development.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Profile Highlights doesn't match expected [Name Should have Characters] but found [You are a Intermediate developer with 3 years of experience.
+You've completed 2 projects (1 websites and 1 apps).
+You focus on quality over quantity with 0.7 projects per year.
+You have a balanced portfolio across web and app development.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ProfileStatisticsFunctionality.Datacheck(ProfileStatisticsFunctionality.java:64)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:47:31 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:47:37 IST" duration-ms="5947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Neha Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[neha.sharma@company.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Staff Engineer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Java,Spring,Microservices,SQL]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Expert developer with 8 years of experience.
+You've completed 18 projects (6 websites and 12 apps).
+You have good productivity with 2.3 projects per year.
+You have a balanced portfolio across web and app development.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:47:37 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:48:14 IST" duration-ms="36758" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aisha Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Junior Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[JavaScript,HTML,CSS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please fill out this field.(Email)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Profile Highlights doesn't match expected [Please fill out this field.(Email)] but found [You are a Intermediate developer with 2 years of experience.
+You've completed 4 projects (3 websites and 1 apps).
+You have good productivity with 2.0 projects per year.
+You specialize in web development. Consider expanding your app development skills.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Profile Highlights doesn't match expected [Please fill out this field.(Email)] but found [You are a Intermediate developer with 2 years of experience.
+You've completed 4 projects (3 websites and 1 apps).
+You have good productivity with 2.0 projects per year.
+You specialize in web development. Consider expanding your app development skills.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ProfileStatisticsFunctionality.Datacheck(ProfileStatisticsFunctionality.java:64)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:48:14 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:51:14 IST" duration-ms="180012" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohit Menon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rohit.menon@proton.me]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Backend Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Java,Spring,SQL]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Intermediate developer with 4 years of experience.
+You've completed 7 projects (5 websites and 2 apps).
+You focus on quality over quantity with 1.8 projects per year.
+You specialize in web development. Consider expanding your app development skills.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03ff28c646acc851fe720f4203b1b194, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49693}, goog:processID: 30768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49693/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03ff28c646acc851fe720f4203b1b194]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03ff28c646acc851fe720f4203b1b194, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49693}, goog:processID: 30768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49693/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03ff28c646acc851fe720f4203b1b194
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:428)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:642)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1137)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:51:39 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:51:46 IST" duration-ms="6322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Divya Patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[divya.patel@outlook.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Senior Web Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[React,Node,TypeScript]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Advanced developer with 6 years of experience.
+You've completed 15 projects (12 websites and 3 apps).
+You have good productivity with 2.5 projects per year.
+You specialize in web development. Consider expanding your app development skills.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:51:46 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:51:46 IST" duration-ms="766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahesh Gupta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mahesh.g@company.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sr Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Python,Django,Flask]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please fill in all required fields]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:51:46 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:51:50 IST" duration-ms="3208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sneha R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sneha.r@domain.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mobile App Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Android,Kotlin,Java]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Intermediate developer with 3 years of experience.
+You've completed 5 projects (1 websites and 4 apps).
+You focus on quality over quantity with 1.7 projects per year.
+You specialize in app development. Consider exploring more web projects.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:51:50 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:51:54 IST" duration-ms="4681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivek Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vivek.sharma@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Technical Lead]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Microservices,Java,Spring Boot]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Expert developer with 8 years of experience.
+You've completed 28 projects (18 websites and 10 apps).
+You have good productivity with 3.5 projects per year.
+You have a balanced portfolio across web and app development.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:51:54 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:51:57 IST" duration-ms="2684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anjali Nair]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anjali.nair@contoso.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Full Stack Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Angular,Node,SQL]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Advanced developer with 5 years of experience.
+You've completed 12 projects (7 websites and 5 apps).
+You have good productivity with 2.4 projects per year.
+You have a balanced portfolio across web and app development.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:51:57 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:52:00 IST" duration-ms="2824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karthik Subramanian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[karthik.subramanian@proton.me]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Principal Engineer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Go,Rust,Distributed Systems]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Expert developer with 9 years of experience.
+You've completed 125 projects (80 websites and 45 apps).
+Your productivity is exceptional with 13.9 projects per year!
+You have a balanced portfolio across web and app development.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:52:00 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:52:03 IST" duration-ms="2707" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pooja Verma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pooja.verma@outlook.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Testing,Automation,Postman]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please fill out this field.(Current Job Role)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Profile Highlights doesn't match expected [Please fill out this field.(Current Job Role)] but found [You are a Beginner developer with 1 years of experience.
+You've completed 0 projects (0 websites and 0 apps).
+You focus on quality over quantity with 0.0 projects per year.
+You have a balanced portfolio across web and app development.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Profile Highlights doesn't match expected [Please fill out this field.(Current Job Role)] but found [You are a Beginner developer with 1 years of experience.
+You've completed 0 projects (0 websites and 0 apps).
+You focus on quality over quantity with 0.0 projects per year.
+You have a balanced portfolio across web and app development.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ProfileStatisticsFunctionality.Datacheck(ProfileStatisticsFunctionality.java:64)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:52:03 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:52:06 IST" duration-ms="3503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanjay Rao]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sanjay.rao@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Staff Engineer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Java,Spring,Cloud,AWS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[You are a Expert developer with 10 years of experience.
+You've completed 55 projects (25 websites and 30 apps).
+Your productivity is exceptional with 5.5 projects per year!
+You have a balanced portfolio across web and app development.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:52:06 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:52:09 IST" duration-ms="2728" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ishita Bose]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ishita.bose@company.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Frontend Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Vue,Nuxt,TypeScript]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please fill in all required fields]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Profile Highlights doesn't match expected [Please fill in all required fields] but found [You are a Intermediate developer with 3 years of experience.
+You've completed 1 projects (0 websites and 1 apps).
+You focus on quality over quantity with 0.3 projects per year.
+You specialize in app development. Consider exploring more web projects.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Profile Highlights doesn't match expected [Please fill in all required fields] but found [You are a Intermediate developer with 3 years of experience.
+You've completed 1 projects (0 websites and 1 apps).
+You focus on quality over quantity with 0.3 projects per year.
+You specialize in app development. Consider exploring more web projects.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ProfileStatisticsFunctionality.Datacheck(ProfileStatisticsFunctionality.java:64)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:52:09 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:52:12 IST" duration-ms="2832" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sameer Kulkarni]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sameer.kulkarni@company.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cloud Engineer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Azure,CI/CD,Bicep]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please fill in all required fields]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Profile Highlights doesn't match expected [Please fill in all required fields] but found [You are a Intermediate developer with 2 years of experience.
+You've completed 1 projects (1 websites and 0 apps).
+You focus on quality over quantity with 0.5 projects per year.
+You specialize in web development. Consider expanding your app development skills.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Profile Highlights doesn't match expected [Please fill in all required fields] but found [You are a Intermediate developer with 2 years of experience.
+You've completed 1 projects (1 websites and 0 apps).
+You focus on quality over quantity with 0.5 projects per year.
+You specialize in web development. Consider expanding your app development skills.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ProfileStatisticsFunctionality.Datacheck(ProfileStatisticsFunctionality.java:64)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method signature="testMeasurePortfolioButtonTitle(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:52:12 IST" name="testMeasurePortfolioButtonTitle" data-provider="sampleData" finished-at="2026-01-23T21:52:15 IST" duration-ms="3275" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Please fill in all required fields]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Profile Highlights doesn't match expected [Please fill in all required fields] but found [You are a Advanced developer with 5 years of experience.
+You've completed 0 projects (0 websites and 0 apps).
+You focus on quality over quantity with 0.0 projects per year.
+You have a balanced portfolio across web and app development.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Profile Highlights doesn't match expected [Please fill in all required fields] but found [You are a Advanced developer with 5 years of experience.
+You've completed 0 projects (0 websites and 0 apps).
+You focus on quality over quantity with 0.0 projects per year.
+You have a balanced portfolio across web and app development.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testCases.ProfileStatisticsFunctionality.Datacheck(ProfileStatisticsFunctionality.java:64)
+at testCases.ProfileStatisticsFunctionality.testMeasurePortfolioButtonTitle(ProfileStatisticsFunctionality.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurePortfolioButtonTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProfileStatisticsFunctionality@d78795]" started-at="2026-01-23T21:52:16 IST" name="tearDown" finished-at="2026-01-23T21:52:16 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ProfileStatisticsFunctionality -->
+      <class name="testCases.ProfileStatisticsUITest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" started-at="2026-01-23T21:45:39 IST" name="setup" finished-at="2026-01-23T21:46:07 IST" duration-ms="28311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProfileStatistics_TC001()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" started-at="2026-01-23T21:46:07 IST" name="ProfileStatistics_TC001" finished-at="2026-01-23T21:46:07 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileStatistics_TC001 -->
+        <test-method signature="ProfileStatistics_TC002()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" started-at="2026-01-23T21:46:07 IST" name="ProfileStatistics_TC002" finished-at="2026-01-23T21:46:07 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileStatistics_TC002 -->
+        <test-method signature="ProfileStatistics_TC003()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" started-at="2026-01-23T21:46:07 IST" name="ProfileStatistics_TC003" finished-at="2026-01-23T21:46:07 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileStatistics_TC003 -->
+        <test-method signature="ProfileStatistics_TC004()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" started-at="2026-01-23T21:46:07 IST" name="ProfileStatistics_TC004" finished-at="2026-01-23T21:46:23 IST" duration-ms="15132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileStatistics_TC004 -->
+        <test-method signature="ProfileStatistics_TC005()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" started-at="2026-01-23T21:46:23 IST" name="ProfileStatistics_TC005" finished-at="2026-01-23T21:46:23 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileStatistics_TC005 -->
+        <test-method signature="ProfileStatistics_TC006()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" started-at="2026-01-23T21:46:23 IST" name="ProfileStatistics_TC006" finished-at="2026-01-23T21:46:23 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileStatistics_TC006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProfileStatisticsUITest@c9413d8]" started-at="2026-01-23T21:46:23 IST" name="tearDown" finished-at="2026-01-23T21:46:23 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ProfileStatisticsUITest -->
+      <class name="testCases.PortifoliopageUiTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:16 IST" name="setup" finished-at="2026-01-23T21:52:24 IST" duration-ms="7937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:24 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:29 IST" duration-ms="5070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shankar@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Junior Developer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Java,Python]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:29 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:34 IST" duration-ms="4251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Developer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:34 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:35 IST" duration-ms="1731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Web Developer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Cloud Technologies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:35 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:40 IST" duration-ms="4551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Full Stack Developer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Web technologies,Java,Python]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:40 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:42 IST" duration-ms="2406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lakshman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lakshman@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Senior App Developer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Web technologies,Java,C#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:42 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:45 IST" duration-ms="3031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seetha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seetha@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Senior Web Developer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C/C++,Java,C#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:45 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:48 IST" duration-ms="2997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john.doe@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Senior Developer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Dotnet,Java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:48 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:51 IST" duration-ms="2244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lead Engineer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Perl,JavaScript]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:51 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:55 IST" duration-ms="4119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya Raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[priya.r@contoso.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Technical Lead]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[React,Node,Azure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method signature="testCreatePortfolioButtonTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:55 IST" name="testCreatePortfolioButtonTitle" data-provider="dataforportfolio" finished-at="2026-01-23T21:52:56 IST" duration-ms="1541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun Kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arun.kumar@proton.me]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Principal Engineer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Go,Rust,Distributed Systems]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePortfolioButtonTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PortifoliopageUiTest@2c715e84]" started-at="2026-01-23T21:52:56 IST" name="tearDown" finished-at="2026-01-23T21:52:57 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.PortifoliopageUiTest -->
+      <class name="testCases.PortfolioFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.PortfolioFunctionality@47428937]" started-at="2026-01-23T21:52:57 IST" name="setup" finished-at="2026-01-23T21:52:58 IST" duration-ms="1356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="portFunctionality()[pri:0, instance:testCases.PortfolioFunctionality@47428937]" started-at="2026-01-23T21:52:58 IST" name="portFunctionality" finished-at="2026-01-23T21:52:59 IST" duration-ms="1504" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.PortfolioFunctionality.portFunctionality(PortfolioFunctionality.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PortfolioFunctionality@47428937]" started-at="2026-01-23T21:53:00 IST" name="tearDown" finished-at="2026-01-23T21:53:00 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.PortfolioFunctionality -->
+    </test> <!-- C:/Users/2457915/IdeaProjects/DevProfileAutomationFramework/src/test/java/testScripts/ProfileStatisticsPageTest.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
