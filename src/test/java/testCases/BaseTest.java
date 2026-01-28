@@ -15,10 +15,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Optional;
+import org.testng.annotations.*;
 import pageObjects.Homepage;
 import pageObjects.PortfolioPage;
 
@@ -93,9 +90,7 @@ public class BaseTest {
             }
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-
-
-        driver.get(properties.getProperty("url"));
+        driver.get("https://dev-profile-eight.vercel.app/");
         driver.manage().window().maximize();
         wait=new WebDriverWait(driver,Duration.ofSeconds(3));
         homepage = new Homepage(driver);
@@ -129,5 +124,11 @@ public class BaseTest {
         return des;
 
     }
+    @BeforeMethod
+    public void init(){
+        homepage=new Homepage(driver);
+        portfolioPage=new PortfolioPage(driver);
+    }
+
 }
 
