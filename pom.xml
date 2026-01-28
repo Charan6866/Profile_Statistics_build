@@ -15,6 +15,11 @@
 <!--        <junit.jupiter.version>5.10.2</junit.jupiter.version>-->
 <!--        <webdriver.manager.version>5.8.0</webdriver.manager.version>-->
 <!--    </properties>-->
+    <properties>
+        <maven.compiler.release>21</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <webdriver.manager.version>5.8.0</webdriver.manager.version>
+    </properties>
     <dependencies>
 
         <dependency>
