@@ -42,7 +42,7 @@ public class Homepage extends Basepage {
     List<WebElement> Inputs;
     @FindBy(xpath="//label")
     List<WebElement> labels;
-    @FindBy(xpath="//buttons")
+    @FindBy(xpath="//button")
     List<WebElement> buttons;
 
 //actions

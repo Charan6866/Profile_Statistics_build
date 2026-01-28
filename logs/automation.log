@@ -742,3 +742,448 @@ You have a balanced portfolio across web and app development.]
 2026-01-28 10:57:23 INFO  PortfolioFunctionality:17 - Starting the checking of complete portfolio page functionality
 2026-01-28 10:57:25 INFO  PortfolioFunctionality:45 - Test Case finished
 2026-01-28 10:57:28 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7577b641: 0 ms
+2026-01-28 17:06:49 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:06:49 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:06:49 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:06:49 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457143\IdeaProjects\DevProfileAutomationFramework\testng.xml
+
+2026-01-28 17:06:50 INFO  ExtentManager:69 - ****************Test started*************
+2026-01-28 17:06:50 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-01-28 17:06:50 INFO  ExtentManager:108 - *** Test Skipped *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC001'
+2026-01-28 17:06:50 INFO  ExtentManager:108 - *** Test Skipped *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC002'
+2026-01-28 17:06:50 INFO  ExtentManager:108 - *** Test Skipped *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC003'
+2026-01-28 17:06:50 INFO  ExtentManager:108 - *** Test Skipped *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC004'
+2026-01-28 17:06:50 INFO  ExtentManager:108 - *** Test Skipped *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC005'
+2026-01-28 17:06:50 INFO  ExtentManager:108 - *** Test Skipped *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC006'
+2026-01-28 17:06:50 ERROR Utils:154 - [Error] java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;DataProvider.Dataprovider.properties&quot; is null
+	at DataProvider.Dataprovider.profileData1(Dataprovider.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2026-01-28 17:06:50 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:06:50 ERROR Utils:154 - [Error] java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;DataProvider.Dataprovider.properties&quot; is null
+	at DataProvider.Dataprovider.profileData2(Dataprovider.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2026-01-28 17:06:50 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:06:50 INFO  ExtentManager:108 - *** Test Skipped *** | Test Class : '[TestClass name=class testCases.PortfolioFunctionality]' | Test Method : 'portFunctionality'
+2026-01-28 17:06:52 INFO  ExtentManager:124 - ******************Test finished*****************
+2026-01-28 17:06:52 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@55e42449: 18 ms
+2026-01-28 17:06:52 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@e57e5d6: 0 ms
+2026-01-28 17:09:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457143\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 17:12:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457143\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+2026-01-28 17:14:03 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:14:03 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:14:03 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:14:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457143\IdeaProjects\DevProfileAutomationFramework\testng.xml
+
+2026-01-28 17:14:03 INFO  ExtentManager:69 - ****************Test started*************
+2026-01-28 17:14:03 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+2026-01-28 17:14:25 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:28 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:30 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:33 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:37 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:40 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:43 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:45 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:48 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:51 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:14:58 INFO  ExtentManager:124 - ******************Test finished*****************
+2026-01-28 17:14:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@134955bb: 5 ms
+2026-01-28 17:14:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@45b08b17: 0 ms
+2026-01-28 17:16:01 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:16:01 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:16:01 WARN  TestNG:133 - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:01 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-28 17:16:02 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2457143\IdeaProjects\DevProfileAutomationFramework\testng.xml
+
+2026-01-28 17:16:02 INFO  ExtentManager:69 - ****************Test started*************
+2026-01-28 17:16:02 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2026-01-28 17:16:08 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC001'
+2026-01-28 17:16:09 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC002'
+2026-01-28 17:16:09 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC003'
+2026-01-28 17:16:25 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC004'
+2026-01-28 17:16:25 INFO  ProfileStatisticsUITest:70 - Starting ProfileStatistics_TC005()
+2026-01-28 17:16:26 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC005'
+2026-01-28 17:16:26 INFO  ProfileStatisticsUITest:91 - Test Passed
+2026-01-28 17:16:26 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsUITest]' | Test Method : 'ProfileStatistics_TC006'
+2026-01-28 17:16:51 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:16:51 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:16:52 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:16:56 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:16:56 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:16:56 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:16:58 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:00 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:00 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:00 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:02 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:05 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:05 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:05 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:06 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:09 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:09 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:09 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:11 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:13 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:13 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:14 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:15 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:18 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:18 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:19 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:21 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:23 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:24 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:24 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:25 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:28 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:28 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:28 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:30 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:33 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:33 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:34 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:36 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:38 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:38 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:39 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:40 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:43 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:43 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:43 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:45 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:47 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:47 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:47 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:49 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:51 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:51 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:52 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:53 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:53 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:53 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:54 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:55 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:17:57 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:17:57 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:17:58 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:17:59 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:18:02 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:18:02 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:18:02 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:18:03 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:18:06 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:18:06 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:18:06 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:18:07 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:18:10 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:18:10 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:18:10 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:18:12 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:18:15 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:18:15 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:18:15 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:18:16 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:18:19 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:18:19 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:18:19 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:18:20 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:18:24 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:18:24 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:18:24 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:18:25 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:18:28 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:18:28 INFO  ProfileStatisticsFunctionality:32 - ***** Starting Test Cases  ****
+2026-01-28 17:18:29 INFO  ProfileStatisticsFunctionality:37 - Entering user details
+2026-01-28 17:18:30 INFO  ProfileStatisticsFunctionality:39 - Validating the profile highlights
+2026-01-28 17:18:33 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.ProfileStatisticsFunctionality]' | Test Method : 'testMeasurePortfolioButtonTitle'
+2026-01-28 17:18:48 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:18:50 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:18:52 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:18:57 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:19:00 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:19:03 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:19:06 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:19:10 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:19:13 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:19:15 INFO  ExtentManager:77 - *** Test Passed *** | Test Class : '[TestClass name=class testCases.PortifoliopageUiTest]' | Test Method : 'testCreatePortfolioButtonTitle'
+2026-01-28 17:19:24 INFO  PortfolioFunctionality:18 - Starting the checking of complete portfolio page functionality
+2026-01-28 17:19:27 INFO  PortfolioFunctionality:46 - Test Case finished
+2026-01-28 17:19:27 INFO  ExtentManager:99 - *** Test Failed *** | Test Class : '[TestClass name=class testCases.PortfolioFunctionality]' | Test Method : 'portFunctionality'
+2026-01-28 17:19:32 INFO  ExtentManager:124 - ******************Test finished*****************
+2026-01-28 17:19:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5ea24702: 9 ms
+2026-01-28 17:19:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1da2219c: 0 ms
