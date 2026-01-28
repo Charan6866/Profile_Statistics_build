@@ -11,6 +11,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -30,7 +32,7 @@ public class ExtentManager extends BaseTest implements ITestListener {
     public ExtentTest test;
 
     String repName;
-
+    private static final Logger log = LogManager.getLogger(ExtentManager.class);
     public void onStart(ITestContext testContext) {
 
        /*SimpleDateFormat df=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
@@ -64,6 +66,7 @@ public class ExtentManager extends BaseTest implements ITestListener {
         if(!includedGroups.isEmpty()) {
             extent.setSystemInfo("Groups", includedGroups.toString());
         }
+        log.info("****************Test started*************");
     }
 
     public void onTestSuccess(ITestResult result) {
@@ -71,7 +74,7 @@ public class ExtentManager extends BaseTest implements ITestListener {
         test = extent.createTest(result.getTestClass().getName());
         test.assignCategory(result.getMethod().getGroups()); // to display groups in report
         test.log(Status.PASS,result.getName()+" got successfully executed");
-//        logger.info("*** Test Passed *** | Test Class : '{}' | Test Method : '{}'", result.getTestClass().getTestName(), result.getName());
+        log.info("*** Test Passed *** | Test Class : '{}' | Test Method : '{}'", result.getTestClass(), result.getName());
     }
 
     public void onTestFailure(ITestResult result) {
@@ -80,6 +83,7 @@ public class ExtentManager extends BaseTest implements ITestListener {
 
         test.log(Status.FAIL,result.getName()+" got failed");
         test.log(Status.INFO, result.getThrowable().getMessage());
+        //log.error("Test Failed: " + result.getName() + " - " + result.getThrowable());
         BaseTest base = (BaseTest) result.getInstance();
 
         try {
@@ -92,7 +96,7 @@ public class ExtentManager extends BaseTest implements ITestListener {
         } catch (Exception e1) {
             e1.printStackTrace();
         }
-//        logger.info("*** Test Failed *** | Test Class : '{}' | Test Method : '{}'", result.getTestClass().getTestName(), result.getName());
+        log.info("*** Test Failed *** | Test Class : '{}' | Test Method : '{}'", result.getTestClass(), result.getName());
 
     }
 
@@ -101,7 +105,7 @@ public class ExtentManager extends BaseTest implements ITestListener {
         test.assignCategory(result.getMethod().getGroups());
         test.log(Status.SKIP, result.getName()+" got skipped");
         test.log(Status.INFO, result.getThrowable().getMessage());
-//        logger.info("*** Test Skipped *** | Test Class : '{}' | Test Method : '{}'", result.getTestClass().getTestName(), result.getName());
+        log.info("*** Test Skipped *** | Test Class : '{}' | Test Method : '{}'", result.getTestClass(), result.getName());
 
     }
 
@@ -117,39 +121,11 @@ public class ExtentManager extends BaseTest implements ITestListener {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-//        logger.info("*** Report Generated *** | In onFinish");
-
-
-
-       /*  try {
-            URL url = new  URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);
-
-         // Create the email message
-         ImageHtmlEmail email = new ImageHtmlEmail();
-         email.setDataSourceResolver(new DataSourceUrlResolver(url));
-         email.setHostName("smtp.googlemail.com");
-         email.setSmtpPort(465);
-         email.setAuthenticator(new DefaultAuthenticator("pavanoltraining@gmail.com","password"));
-         email.setSSLOnConnect(true);
-         email.setFrom("pavanoltraining@gmail.com"); //Sender
-         email.setSubject("Test Results");
-         email.setMsg("Please find Attached Report....");
-         email.addTo("pavankumar.busyqa@gmail.com"); //Receiver
-         email.attach(url, "extent report", "please check report...");
-         email.send(); // send the email
-         }
-         catch(Exception e)
-         {
-            e.printStackTrace();
-            }
-        */
+        log.info("******************Test finished*****************");
 
     }
 
 
 
 }
-
-
 

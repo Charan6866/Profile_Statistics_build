@@ -1,0 +1,14 @@
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true"
+          name="Chrome Test">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="testCases.ProfileStatisticsUITest"/>
+            <class name="testCases.ProfileStatisticsFunctionality"/>
+            <class name="testCases.PortifoliopageUiTest"/>
+            <class name="testCases.PortfolioFunctionality"/>
+        </classes>
+    </test>
+</suite>

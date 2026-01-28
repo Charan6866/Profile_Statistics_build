@@ -1,6 +1,4 @@
 package testCases;
-
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 
@@ -14,14 +12,10 @@ import utils.ExcelUtils;
 import java.io.IOException;
 import java.time.Duration;
 
-
 public class ProfileStatisticsFunctionality extends BaseTest {
-
- String Excelpath;
- String sheetName;
-
+    String Excelpath;
+    String sheetName;
     public void setForm(String name, String email, String experience, String jobTitle, String websitesDeveloped, String appMade, String skills) {
-
         homepage.setName(name);
         homepage.setEmail(email);
         homepage.setYearsofExperience(experience);
@@ -31,13 +25,11 @@ public class ProfileStatisticsFunctionality extends BaseTest {
         homepage.setSkills(skills);
         homepage.clickMeasure();
     }
-
     @Test(priority = 0, dataProvider = "sampleData", dataProviderClass = Dataprovider.class, groups = {"regression"})
     public void testMeasurePortfolioButtonTitle(int rowindex, String name, String email, String experience, String jobTitle, String websitesDeveloped, String appMade, String skills, String expected) throws InterruptedException, IOException {
         Excelpath = properties.getProperty("Excelpath");
         sheetName = properties.getProperty("sheetName1");
         logger.info("***** Starting Test Cases  ****");
-        logger.debug("This is a debug log message");
         System.out.println(name + " " + email + " " + experience + " " + jobTitle + " " + websitesDeveloped + " " + appMade + " " + skills);
         driver.navigate().refresh();
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -47,7 +39,6 @@ public class ProfileStatisticsFunctionality extends BaseTest {
         logger.info("Validating the profile highlights");
         Datacheck(expected, rowindex);
     }
-
     public void Datacheck(String expect, int rowIndex) throws IOException {
         if (waitAndAcceptAlert()) {
             String alertText = getAlertText();
@@ -60,26 +51,18 @@ public class ProfileStatisticsFunctionality extends BaseTest {
             String expectval = expect;
 
             try {
-
                 Assert.assertEquals(actual, expectval, "Profile Highlights doesn't match");
                 ExcelUtils.setCellData(Excelpath, sheetName, rowIndex, 8, actual);
                 ExcelUtils.setCellData(Excelpath, sheetName, rowIndex, 9, "Pass");
                 ExcelUtils.fillGreenColor(Excelpath, sheetName, rowIndex, 9);
-                logger.info("TestCase passed");
             } catch (AssertionError e) {
-                logger.error("Test Failed:" + e.getMessage());
                 ExcelUtils.setCellData(Excelpath, sheetName, rowIndex, 8, actual);
                 ExcelUtils.setCellData(Excelpath, sheetName, rowIndex, 9, "Fail");
                 ExcelUtils.fillRedColor(Excelpath, sheetName, rowIndex, 9);
                 throw e;
-            } finally {
-                logger.info("Test Case finished");
             }
         }
     }
-
-
-
     public boolean waitAndAcceptAlert() {
         try {
             wait = new WebDriverWait(driver, Duration.ofSeconds(2));
@@ -91,8 +74,8 @@ public class ProfileStatisticsFunctionality extends BaseTest {
     }
     public String getAlertText(){
         try{
-             wait=new WebDriverWait(driver,Duration.ofSeconds(2));
-             Alert alert=wait.until(ExpectedConditions.alertIsPresent());
+            wait=new WebDriverWait(driver,Duration.ofSeconds(2));
+            Alert alert=wait.until(ExpectedConditions.alertIsPresent());
 
             String text = alert.getText();
             alert.accept();
@@ -100,10 +83,7 @@ public class ProfileStatisticsFunctionality extends BaseTest {
         } catch (Exception e) {
             return null;
         }
-
     }
-
-
 }
 
 

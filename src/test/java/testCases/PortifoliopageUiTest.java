@@ -10,11 +10,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class PortifoliopageUiTest extends BaseTest{
-SoftAssert sa=new SoftAssert();
-String Excelpath;
-String sheetName;
 
-public void setForm(String name, String email, String experience, String jobTitle, String websitesDeveloped, String appMade, String skills){
+    String Excelpath;
+    String sheetName;
+
+    public void setForm(String name, String email, String experience, String jobTitle, String websitesDeveloped, String appMade, String skills){
         homepage.setName(name);
         homepage.setEmail(email);
         homepage.setYearsofExperience(experience);
@@ -28,12 +28,11 @@ public void setForm(String name, String email, String experience, String jobTitl
     public void testCreatePortfolioButtonTitle(String name, String email, String experience, String jobTitle, String websitesDeveloped, String appMade, String skills) throws InterruptedException {
         Excelpath = properties.getProperty("Excelpath");
         sheetName = properties.getProperty("sheetName2");
-    System.out.println(name+" "+email+" "+experience+" "+jobTitle+" "+websitesDeveloped+" "+appMade+" "+skills);
+        System.out.println(name+" "+email+" "+experience+" "+jobTitle+" "+websitesDeveloped+" "+appMade+" "+skills);
         driver.navigate().refresh();
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.body.style.zoom = '67%';");
         setForm(name, email, experience, jobTitle, websitesDeveloped, appMade, skills);
-        logger.info("Starting the UI testing of portfolio page");
         Portpagetitle();
         Pageurl();
         PageheaderTitle();
@@ -54,259 +53,98 @@ public void setForm(String name, String email, String experience, String jobTitl
 
         driver.navigate().back();
     }
-public void Portpagetitle(){
-    logger.info("Sarting  Portpagetitle test");
-    try{
-  Assert.assertEquals(driver.getTitle(),"DevProfile | Portfolio");
-  logger.info("Test passed");
+    public void Portpagetitle(){
+
+        Assert.assertEquals(driver.getTitle(),"DevProfile | Portfolio","Title doesn't match");
+
     }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
+    public void Pageurl(){
+
+        Assert.assertEquals(driver.getCurrentUrl(), "https://dev-profile-eight.vercel.app/portfolio/portfolio.html","portfolio url mismatch or url not correct");
+
     }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-public void Pageurl(){
-    logger.info("Starting Pageurl test");
-    try {
-        Assert.assertEquals(driver.getCurrentUrl(), "https://dev-profile-eight.vercel.app/portfolio/portfolio.html");
-        logger.info("Test passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-public  void PageheaderTitle()
-{
-    logger.info("Starting PageheaderTitle test");
-    try {
-        Assert.assertEquals(portfolioPage.getHeadingText(), "DevProfile");
-        logger.info("Test passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-public void Pageheadersubtitle(){
-    logger.info("Stating Pageheadersubtitle test");
-    try {
-        Assert.assertEquals(portfolioPage.getSubtitleText(), "Your Professional Portfolio");
-        logger.info("Test passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-public void Avatar(String fullName){
-    logger.info("Starting Avatar Test");
-    String[] namesplit=fullName.split(" ");
-    String avatar1="";
-    if(namesplit.length>1)
+    public  void PageheaderTitle()
     {
-        avatar1=Character.toString(namesplit[0].charAt(0))+Character.toString(namesplit[1].charAt(0));
-    } else if (namesplit.length==1) {
-        avatar1=Character.toString(namesplit[0].charAt(0));
+
+
+        Assert.assertEquals(portfolioPage.getHeadingText(), "DevProfile","page header mismatch");
+
     }
-    try {
-        Assert.assertEquals(portfolioPage.getProfileAvatarAltText(), avatar1);
-        logger.info("Test passed");
+    public void Pageheadersubtitle(){
+
+
+        Assert.assertEquals(portfolioPage.getSubtitleText(), "Your Professional Portfolio","page header subtitle mismatch");
+
     }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
+    public void Avatar(String fullName){
+
+        String[] namesplit=fullName.split(" ");
+        String avatar1="";
+        if(namesplit.length>1)
+        {
+            avatar1=""+namesplit[0].charAt(0)+namesplit[1].charAt(0);
+        } else if (namesplit.length==1) {
+            avatar1=""+namesplit[0].charAt(0);
+        }
+
+        Assert.assertEquals(portfolioPage.getProfileAvatarAltText(), avatar1,"avatar is not correct");
     }
-    finally {
-        logger.info("Test Cases completed");
+    public void fullNamecheck(String fullName){
+        Assert.assertEquals(portfolioPage.getProfileNameText(), fullName,"fullName is not as given");
     }
-}
-public void fullNamecheck(String fullName){
-    logger.info("Starting fullNamecheck");
-    try {
-        Assert.assertEquals(portfolioPage.getProfileNameText(), fullName);
-        logger.info("Test Passed");
+    public void jobTitelcheck(String jobRole){
+        Assert.assertEquals(portfolioPage.getProfileTitleText(), jobRole,"jobrole is not as given");
     }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
+    public void emailCheck(String email){
+        Assert.assertEquals(portfolioPage.getProfileEmailText(), email,"email is not as given");
     }
-    finally {
-        logger.info("Test Cases completed");
+    public void experienceStats(String experience){
+        Assert.assertEquals(portfolioPage.getYearsOfExperienceValue(), experience,"experience is not as given");
     }
-}
-public void jobTitelcheck(String jobRole){
-    logger.info("Starting jobTitelcheck");
-    try {
-        Assert.assertEquals(portfolioPage.getProfileTitleText(), jobRole);
-        logger.info("Test Passed");
+    public void experienceStatsHeader(){
+        Assert.assertEquals(portfolioPage.getYearsOfExperienceLabel(), "Years Experience","experience status header mismatch");
     }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-public void emailCheck(String email){
-    logger.info("Starting emailCheck");
-    try {
-        Assert.assertEquals(portfolioPage.getProfileEmailText(), email);
-        logger.info("Test Passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
+    public void websitesCheck(String websites){
+        Assert.assertEquals(portfolioPage.getWebsitesDevelopedValue(),websites,"websites count is not as given");
+        Assert.assertEquals(portfolioPage.getWebsitesDevelopedLabel(),"Websites Developed","websites header mismatch");
     }
 
-}
-public void experienceStats(String experience){
-    logger.info("Starting experienceStats");
-    try {
-        Assert.assertEquals(portfolioPage.getYearsOfExperienceValue(), experience);
-        logger.info("Test Passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-public void experienceStatsHeader(){
-    logger.info("Starting experienceStatsHeader");
-    try {
-        Assert.assertEquals(portfolioPage.getYearsOfExperienceLabel(), "Years Experience");
-        logger.info("Test passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-public void websitesCheck(String websites){
-    logger.info("Starting websitesCheck");
-    try{
-    sa.assertEquals(portfolioPage.getWebsitesDevelopedValue(),websites);
-    Assert.assertEquals(portfolioPage.getWebsitesDevelopedLabel(),"Websites Developed");
-        logger.info("Test passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-
-public void appsCheck(String apps){
-    logger.info("Starting appsCheck");
-    try{
-    Assert.assertEquals(portfolioPage.getAppsDevelopedValue(),apps);
-    Assert.assertEquals(portfolioPage.getAppsDevelopedLabel(),"Apps Created");
-        logger.info("Test passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
-    }
-}
-
-public void skillsHeader(String skill){
-    logger.info("Starting skillsHeader");
-    if(!skill.trim().isEmpty()){
-        try{
-
-     Assert.assertEquals(portfolioPage.getSkillsSectionHeaderText(),"Skills");
-            logger.info("Test passed");
-        }
-        catch (Exception e){
-            logger.error("Test Failed:"+e.getMessage());
-        }
-        finally {
-            logger.info("Test Cases completed");
-        }
-    }
-}
-public void skillsCheck(String skills){
-    logger.info("Starting skillsCheck");
-    if(!skills.trim().isEmpty()){
-        String[] stringsplit=skills.split(",");
-        List<String> stringList= Arrays.stream(stringsplit).toList();
-        System.out.println(stringList);
-        try{
-        Assert.assertEquals(portfolioPage.getSkillSetTexts(),stringList);
-            logger.info("Test passed");
-        }
-        catch (Exception e){
-            logger.error("Test Failed:"+e.getMessage());
-        }
-        finally {
-            logger.info("Test Cases completed");
-        }
-    }
-}
-public void profileHighlightsHeader(){
-    logger.info("Starting profileHighlightsHeader");
-    try {
-        Assert.assertEquals(portfolioPage.getProfileHighlightsSectionHeaderText(),"Profile Highlights");
-        logger.info("Test passed");
-    }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
-    }
-    finally {
-        logger.info("Test Cases completed");
+    public void appsCheck(String apps){
+        Assert.assertEquals(portfolioPage.getAppsDevelopedValue(),apps,"apps count is not as given");
+        Assert.assertEquals(portfolioPage.getAppsDevelopedLabel(),"Apps Created","apps header is mismatch");
     }
 
-}
-//public void profileHighlightsText(String expected){
-//    logger.info("Starting profileHighlightsText");
-//    try{
-//    Assert.assertEquals(portfolioPage.getProfileHighlightsText(),expected);
-//        logger.info("Test passed");
-//    }
-//    catch (Exception e){
-//        logger.error("Test Failed:"+e.getMessage());
-//    }
-//    finally {
-//        logger.info("Test Cases completed");
-//    }
-//}
-public void experienceBadge(String Experience) {
-    logger.info("Starting experienceBadge");
-    String expectedOutput;
-    int exp = Integer.parseInt(Experience);
-    if (exp < 2) {
-        expectedOutput = "Beginner";
-    } else if (exp <= 4) {
-        expectedOutput = "Intermediate";
-    } else if (exp <= 7) {
-        expectedOutput = "Advanced";
-    } else {
-        expectedOutput = "Expert";
+    public void skillsHeader(String skill) {
+        if (!skill.trim().isEmpty()) {
+            Assert.assertEquals(portfolioPage.getSkillsSectionHeaderText(), "Skills","skills header mismatch");
+        }
     }
-    try{
-    Assert.assertEquals(portfolioPage.getExperienceBadgeText(), expectedOutput);
-        logger.info("Test passed");
+    public void skillsCheck(String skills){
+        if(!skills.trim().isEmpty()){
+            String[] stringsplit=skills.split(",");
+            List<String> stringList= Arrays.stream(stringsplit).toList();
+            System.out.println(stringList);
+
+            Assert.assertEquals(portfolioPage.getSkillSetTexts(),stringList,"skills are not as given");
+        }
     }
-    catch (Exception e){
-        logger.error("Test Failed:"+e.getMessage());
+    public void profileHighlightsHeader(){
+        Assert.assertEquals(portfolioPage.getProfileHighlightsSectionHeaderText(),"Profile Highlights","profile highlights header mismatch");
     }
-    finally {
-        logger.info("Test Cases completed");
+
+    public void experienceBadge(String Experience) {
+        String expectedOutput;
+        int exp = Integer.parseInt(Experience);
+        if (exp < 2) {
+            expectedOutput = "Beginner";
+        } else if (exp <= 4) {
+            expectedOutput = "Intermediate";
+        } else if (exp <= 7) {
+            expectedOutput = "Advanced";
+        } else {
+            expectedOutput = "Expert";
+        }
+
+        Assert.assertEquals(portfolioPage.getExperienceBadgeText(), expectedOutput,"experience level in profile highlights mismatch");
     }
-}
 }
