@@ -8,7 +8,7 @@ import utils.ExcelUtils;
 public class Dataprovider extends BaseTest {
     String Excelpath;
     String sheetName;
-
+//data
     @DataProvider(name = "sampleData")
     public Object[][] profileData1() throws Exception {
         Excelpath = properties.getProperty("Excelpath");
