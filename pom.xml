@@ -61,11 +61,11 @@
             <version>5.1.2</version>
         </dependency>
 
-        <dependency>
+        <!-- <dependency>
             <groupId>tech.grasshopper</groupId>
             <artifactId>extentreports-testng-adapter</artifactId>
             <version>1.7.0</version>
-        </dependency>
+        </dependency> -->
 
         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
         <dependency>
