@@ -10,6 +10,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -79,7 +80,12 @@ public class BaseTest {
                     driver = new ChromeDriver();
                     break;
                 case "edge":
-                    driver = new EdgeDriver();
+
+                    System.setProperty("webdriver.edge.driver", "C://Users//2457143//OneDrive - Cognizant//Desktop//webdrivers//edgedriver_win64//msedgedriver.exe");
+
+                    EdgeOptions options = new EdgeOptions();
+                    driver = new EdgeDriver(options);
+
                     break;
                 case "firefox":
                     driver = new FirefoxDriver();

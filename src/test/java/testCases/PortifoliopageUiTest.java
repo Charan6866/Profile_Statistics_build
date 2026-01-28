@@ -3,9 +3,7 @@ package testCases;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import org.testng.asserts.SoftAssert;
 import DataProvider.Dataprovider;
-
 import java.util.Arrays;
 import java.util.List;
 

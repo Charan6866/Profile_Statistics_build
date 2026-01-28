@@ -12,7 +12,7 @@
         </listeners>
 
         <!-- ===== Chrome run ===== -->
-        <test verbose="2" preserve-order="true" name="UI and Functional Tests - Chrome">
+        <test  name="UI and Functional Tests - Chrome">
             <parameter name="os" value="windows"/>
             <parameter name="browser" value="chrome"/>
             <classes>
@@ -24,15 +24,15 @@
         </test>
 
         <!-- ===== Edge run ===== -->
-        <test verbose="2" preserve-order="true" name="UI and Functional Tests - Edge">
-            <parameter name="os" value="windows"/>
-            <parameter name="browser" value="edge"/>
-            <classes>
-                <class name="testCases.ProfileStatisticsUITest"/>
-                <class name="testCases.ProfileStatisticsFunctionality"/>
-                <class name="testCases.PortifoliopageUiTest"/>
-                <class name="testCases.PortfolioFunctionality"/>
-            </classes>
-        </test>
+<!--        <test  name="UI and Functional Tests - Edge">-->
+<!--            <parameter name="os" value="windows"/>-->
+<!--            <parameter name="browser" value="edge"/>-->
+<!--            <classes>-->
+<!--                <class name="testCases.ProfileStatisticsUITest"/>-->
+<!--                <class name="testCases.ProfileStatisticsFunctionality"/>-->
+<!--                <class name="testCases.PortifoliopageUiTest"/>-->
+<!--                <class name="testCases.PortfolioFunctionality"/>-->
+<!--            </classes>-->
+<!--        </test>-->
 
     </suite>
