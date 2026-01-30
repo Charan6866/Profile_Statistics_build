@@ -40,12 +40,13 @@ public class ProfileStatisticsFunctionality extends BaseTest {
         Datacheck(expected, rowindex);
     }
     public void Datacheck(String expect, int rowIndex) throws IOException {
-        if (waitAndAcceptAlert()) {
-            String alertText = getAlertText();
+        if (alertPresent()) {
+            String alertText = getAlertTextandAccept();
             ExcelUtils.setCellData(Excelpath, sheetName, rowIndex, 8, alertText);
             ExcelUtils.setCellData(Excelpath, sheetName, rowIndex, 9, "Pass");
             ExcelUtils.fillGreenColor(Excelpath, sheetName, rowIndex, 9);
-            Assert.assertTrue(true, "Validation alert at row" + rowIndex + " : " + alertText);
+            Assert.assertEquals(alertText, expect, "Validation alert text doesn't match");
+            //Assert.assertTrue(true, "Validation alert at row" + rowIndex + " : " + alertText);
         } else {
             String actual = homepage.getProfileHighlights();
             String expectval = expect;
@@ -63,7 +64,7 @@ public class ProfileStatisticsFunctionality extends BaseTest {
             }
         }
     }
-    public boolean waitAndAcceptAlert() {
+    public boolean alertPresent() {
         try {
             wait = new WebDriverWait(driver, Duration.ofSeconds(2));
             Alert alert = wait.until(ExpectedConditions.alertIsPresent());
@@ -72,11 +73,10 @@ public class ProfileStatisticsFunctionality extends BaseTest {
             return false;
         }
     }
-    public String getAlertText(){
+    public String getAlertTextandAccept(){
         try{
             wait=new WebDriverWait(driver,Duration.ofSeconds(2));
             Alert alert=wait.until(ExpectedConditions.alertIsPresent());
-
             String text = alert.getText();
             alert.accept();
             return text;

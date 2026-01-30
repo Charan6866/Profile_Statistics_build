@@ -23,6 +23,7 @@
             </classes>
         </test>
 
+
         <!-- ===== Edge run ===== -->
 <!--        <test  name="UI and Functional Tests - Edge">-->
 <!--            <parameter name="os" value="windows"/>-->
