@@ -130,11 +130,11 @@ public class BaseTest {
         return des;
 
     }
-    @BeforeMethod
-    public void init(){
-        homepage=new Homepage(driver);
-        portfolioPage=new PortfolioPage(driver);
-    }
+//    @BeforeMethod
+//    public void init(){
+//        homepage=new Homepage(driver);
+//        portfolioPage=new PortfolioPage(driver);
+//    }
 
 }
 
