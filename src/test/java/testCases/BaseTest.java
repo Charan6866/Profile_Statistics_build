@@ -10,6 +10,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -19,6 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 import pageObjects.Homepage;
 import pageObjects.PortfolioPage;
+import java.util.Date;
 
 import java.io.*;
 import java.net.URL;
@@ -34,6 +36,7 @@ public class BaseTest {
     protected static Properties properties;
     public ExtentTest test;
     public WebDriverWait wait;
+    boolean headless;
     @BeforeClass(alwaysRun = true)
     @Parameters({"os","browser"})
     public void setup(String os, String browser) throws IOException {
@@ -42,7 +45,7 @@ public class BaseTest {
         FileReader file = new FileReader("./src//test//resources//config.properties");
         properties = new Properties();
         properties.load(file);
-
+        headless=Boolean.parseBoolean(properties.getProperty("headless"));
         if (properties.getProperty("execution_env").equalsIgnoreCase("remote")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
@@ -77,7 +80,12 @@ public class BaseTest {
 
             switch (browser.toLowerCase()) {
                 case "chrome":
-                    driver = new ChromeDriver();
+                    ChromeOptions chromeOptions=new ChromeOptions();
+                    if(headless)
+                    {
+                        chromeOptions.addArguments("--headless=new");
+                    }
+                    driver = new ChromeDriver(chromeOptions);
                     break;
                 case "edge":
 
@@ -112,7 +120,7 @@ public class BaseTest {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
     public String Takescreenshot(String ssName){
-        String date=new java.text.SimpleDateFormat("yyyyMMddhhmmss").format(new java.util.Date());
+        String date=new java.text.SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts=(TakesScreenshot) driver;
         File sou=ts.getScreenshotAs(OutputType.FILE);
         String des=System.getProperty("user.dir")+"/screenshots/" + ssName + "_" + date + ".png";

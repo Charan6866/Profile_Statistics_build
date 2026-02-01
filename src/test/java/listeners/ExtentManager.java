@@ -26,7 +26,7 @@ import testCases.BaseTest;
 
 
 
-public class ExtentManager extends BaseTest implements ITestListener {
+public class ExtentManager implements ITestListener {
     public ExtentSparkReporter sparkReporter;
     public ExtentReports extent;
     public ExtentTest test;
